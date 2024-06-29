@@ -1,5 +1,5 @@
 /**
- * Interface representing a crypto asset.
+  Interface representing a crypto asset.
  */
 export interface CryptoAssetDTO {
   name: string;
@@ -12,7 +12,7 @@ export interface CryptoAssetDTO {
 }
 
 /**
- * Interface representing the response structure for the assets API.
+  Interface representing the response structure for the assets API.
  */
 export interface AssetsResponseDTO {
   assets: CryptoAssetDTO[];
